@@ -1,13 +1,14 @@
 ## Back-End Specifications
+
 You’ll need to complete the following tasks in each of these back-end files:
 
-auth.js: Update the auth middleware function to work with the GraphQL API.
+DONE            auth.js: Update the auth middleware function to work with the GraphQL API.    
 
-server.js: Implement the Apollo Server and apply it to the Express server as middleware.
+DONE            server.js: Implement the Apollo Server and apply it to the Express server as middleware.
 
 # Schemas directory:
 
-index.js: Export your typeDefs and resolvers.
+DONE            index.js: Export your typeDefs and resolvers.
 
 resolvers.js: Define the query and mutation functionality to work with the Mongoose models.
 
@@ -82,7 +83,7 @@ REMOVE_BOOK will execute the removeBook mutation.
 Additionally, you’ll need to complete the following tasks in each of these front-end files:
 
 # App.jsx: 
-Create an Apollo Provider to make every request work with the Apollo server.
+DONE            Create an Apollo Provider to make every request work with the Apollo server.
 
 # SearchBooks.jsx:
 Use the Apollo useMutation() Hook to execute the SAVE_BOOK mutation in the handleSaveBook() function instead of the saveBook() function imported from the API file.

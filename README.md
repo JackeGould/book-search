@@ -42,9 +42,9 @@
 
 Watch the video demo!
 
-<video width="600" controls>
+<!-- <video width="600" controls>
   <source src="assets/demo.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## Deployment
 
