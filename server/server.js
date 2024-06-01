@@ -33,10 +33,6 @@ if (process.env.NODE_ENV === 'production') {
   });
   } 
 }
-
-// do i need this? double check path
-
-
 // app.use(routes);
 
 // db.once('open', () => {

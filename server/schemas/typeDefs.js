@@ -1,26 +1,30 @@
 const typeDefs = `
-  type Tech {
+  type User {
     _id: ID!
-    name: String!
+    username: String!
+    email: String!
+    password: String!
+    savedBooks: [Book]
   }
-
-  type Matchup {
+  type Book {
     _id: ID!
-    tech1: String!
-    tech2: String!
-    tech1_votes: Int
-    tech2_votes: Int
+    authors: [String]!
+    description: String!
+    bookId: String!
+    image: String
+    link: String
+    title: String!
   }
-
   type Query {
-    tech: [Tech]
-    matchups(_id: String): [Matchup]
-  }
-
-  type Mutation {
-    createMatchup(tech1: String!, tech2: String!): Matchup
-    createVote(_id: String!, techNum: Int!): Matchup
+    user(userId: ID!): User
   }
 `;
 
-module.exports = typeDefs;
+  // type Mutation {
+  //   addUser(): Auth
+  //   login(): Auth
+  //   saveBook(): 
+  //   deleteBook():
+  // }
+
+module.exports = typeDefs
