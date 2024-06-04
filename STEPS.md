@@ -10,7 +10,7 @@ DONE            server.js: Implement the Apollo Server and apply it to the Expre
 
 DONE            index.js: Export your typeDefs and resolvers.
 
-resolvers.js: Define the query and mutation functionality to work with the Mongoose models.
+DONE resolvers.js: Define the query and mutation functionality to work with the Mongoose models.
 
 Use the functionality in the user-controller.js as a guide.
 
