@@ -40,13 +40,14 @@
 
 ## Assets
 
-Watch the video demo!
+The following image demonstrates the web application's appearance and functionality:
 
-<!-- <video width="600" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
-</video> -->
+![](/client/assets/image.png)
+
 
 ## Deployment
 
 https://github.com/JackeGould/book-search
+
+https://book-search-noo7.onrender.com
 
